@@ -42,7 +42,7 @@ public class UI {
             System.out.print("-");
         }
         else {
-            if (piece.getColor() == Color.WHITE) { //quando imprimir peça testa se é branca ou preta para colocar na tela
+            if (piece.getColor() == Color.WHITE) {
                 System.out.print(ANSI_WHITE + piece + ANSI_RESET);
             }
             else {
